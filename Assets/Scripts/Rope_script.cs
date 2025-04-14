@@ -11,6 +11,10 @@ public class ImprovedRopePhysics : MonoBehaviour
     public float jointDamping = 0.7f;
     public LayerMask ropeLayer;
     
+    [Header("Segment Length Settings")]
+    public bool useCustomSegmentLength = false;
+    public float customSegmentLength = 0.5f; // Default length in Unity units
+    
     private GameObject[] segments;
     private LineRenderer lineRenderer;
 
@@ -46,17 +50,38 @@ public class ImprovedRopePhysics : MonoBehaviour
         
         Vector3 direction = endObject.position - startObject.position;
         float distance = direction.magnitude;
-        float segmentLength = distance / (segmentCount + 1);
+        
+        // Determine segment length - either custom or calculated based on distance
+        float segmentLength;
+        if (useCustomSegmentLength)
+        {
+            segmentLength = customSegmentLength;
+        }
+        else
+        {
+            segmentLength = distance / (segmentCount + 1);
+        }
         
         int ropeLayerIndex = LayerMask.NameToLayer("Rope");
         if (ropeLayerIndex == -1)
         {
-            ropeLayerIndex = 3;
+            ropeLayerIndex = 0;
         }
         
         for (int i = 0; i < segmentCount; i++)
         {
-            Vector3 segmentPosition = startObject.position + (direction.normalized * segmentLength * (i + 1));
+            // Position calculation changes if using custom length
+            Vector3 segmentPosition;
+            if (useCustomSegmentLength)
+            {
+                // When using custom length, position segments along direction vector
+                segmentPosition = startObject.position + (direction.normalized * segmentLength * (i + 1));
+            }
+            else
+            {
+                // Original equidistant spacing
+                segmentPosition = startObject.position + (direction.normalized * segmentLength * (i + 1));
+            }
             
             segments[i] = new GameObject("Segment_" + i);
             segments[i].transform.position = segmentPosition;
