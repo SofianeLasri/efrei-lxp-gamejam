@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Textures/Ui/background&apos;); flex-direction: column; padding-top: 64px; padding-right: 64px; padding-bottom: 64px; padding-left: 64px;">
+        <ui:VisualElement name="MenuWrapper" style="flex-grow: 1; width: 40%;">
+            <ui:VisualElement name="Logo" style="flex-grow: 0; background-image: resource(&apos;Textures/Ui/Bras-Cage&apos;); width: 100%; height: 72px; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit;" />
+            <ui:VisualElement name="ActionsWrapper" style="flex-grow: 1; width: 60%; margin-top: 5%;">
+                <ui:Button text="Jouer&#10;" name="Play" />
+                <ui:Button text="Quitter&#10;" name="Quit" style="margin-top: 16px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
