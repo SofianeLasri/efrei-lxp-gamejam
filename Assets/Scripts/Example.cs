@@ -8,8 +8,8 @@ public class Example : MonoBehaviour
 
     private InputAction _leftMove;
     private InputAction _rightMove;
-    [SerializeField] private Vector2 _leftMoveValue;
-    [SerializeField] private Vector2 _rightMoveValue;
+    [SerializeField] public Vector2 _leftMoveValue;
+    [SerializeField] public Vector2 _rightMoveValue;
     
     // Awake se lance avant Start
     void Awake()
@@ -32,7 +32,6 @@ public class Example : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log($"Left Move: {_leftMoveValue}");
-        Debug.Log($"Right Move: {_rightMoveValue}");
+        
     }
 }
