@@ -1,15 +1,16 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
-public class Example : MonoBehaviour
+public class PlayerInputHandler : MonoBehaviour
 {
     [Header("Contrôles")]
     private PlayerInput _playerInput;
 
     private InputAction _leftMove;
     private InputAction _rightMove;
-    [SerializeField] public Vector2 _leftMoveValue;
-    [SerializeField] public Vector2 _rightMoveValue;
+    [SerializeField] private Vector2 leftMoveValue;
+    [SerializeField] private Vector2 rightMoveValue;
     
     // Awake se lance avant Start
     void Awake()
@@ -21,17 +22,22 @@ public class Example : MonoBehaviour
         _leftMove = _playerInput.currentActionMap.FindAction("LeftMove");
         
         // Maintenant on définie la valeur la variable _leftMoveValue
-        _leftMove.performed += ctx => _leftMoveValue = ctx.ReadValue<Vector2>();
-        _leftMove.canceled += ctx => _leftMoveValue = Vector2.zero;
+        _leftMove.performed += ctx => leftMoveValue = ctx.ReadValue<Vector2>();
+        _leftMove.canceled += ctx => leftMoveValue = Vector2.zero;
         
         // On répète :)
         _rightMove = _playerInput.currentActionMap.FindAction("RightMove");
-        _rightMove.performed += ctx => _rightMoveValue = ctx.ReadValue<Vector2>();
-        _rightMove.canceled += ctx => _rightMoveValue = Vector2.zero;
+        _rightMove.performed += ctx => rightMoveValue = ctx.ReadValue<Vector2>();
+        _rightMove.canceled += ctx => rightMoveValue = Vector2.zero;
     }
-
-    void FixedUpdate()
+    
+    public Vector2 GetLeftMoveValue()
     {
-        
+        return leftMoveValue;
+    }
+    
+    public Vector2 GetRightMoveValue()
+    {
+        return rightMoveValue;
     }
 }

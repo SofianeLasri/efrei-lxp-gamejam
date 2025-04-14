@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  rb_right: {fileID: 1820214668}
-  rb_left: {fileID: 491280550}
+  rbRight: {fileID: 1820214668}
+  rbLeft: {fileID: 491280550}
 --- !u!114 &158384269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,8 +212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e9bc85f1265cd4087d2c6d98ea6726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _leftMoveValue: {x: 0, y: 0}
-  _rightMoveValue: {x: 0, y: 0}
+  leftMoveValue: {x: 0, y: 0}
+  rightMoveValue: {x: 0, y: 0}
 --- !u!1 &321947532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,8 +1091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca19a9f55b648149b9a150f7f12b11c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shoulders: {fileID: 1151334151}
-  body: {fileID: 1208221762}
 --- !u!1 &1458274790
 GameObject:
   m_ObjectHideFlags: 0
