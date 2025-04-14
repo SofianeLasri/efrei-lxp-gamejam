@@ -1,0 +1,34 @@
+.menu-btn {
+    border-left-color: rgb(71, 58, 66);
+    border-right-color: rgb(71, 58, 66);
+    border-top-color: rgb(71, 58, 66);
+    border-bottom-color: rgb(71, 58, 66);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: rgb(42, 36, 45);
+    color: rgb(255, 255, 255);
+    -unity-font-definition: resource('Fonts/LilitaOne-Regular');
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    flex-direction: row;
+    -unity-text-align: middle-center;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.menu-btn:hover {
+    border-left-color: rgb(255, 175, 62);
+    border-right-color: rgb(255, 175, 62);
+    border-top-color: rgb(255, 175, 62);
+    border-bottom-color: rgb(255, 175, 62);
+}
