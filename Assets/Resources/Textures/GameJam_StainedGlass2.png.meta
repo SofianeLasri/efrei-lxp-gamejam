@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GameJam_StainedGlass2_0: -1740501052713640515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
