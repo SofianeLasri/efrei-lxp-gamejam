@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4336860406347481718}
   - component: {fileID: 8569955081313734966}
   - component: {fileID: 7697056412726481112}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameJam_Painting3_0
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

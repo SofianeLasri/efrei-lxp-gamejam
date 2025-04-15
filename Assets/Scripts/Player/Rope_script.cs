@@ -91,8 +91,8 @@ namespace Player
                 segments[i].transform.parent = transform;
                 segments[i].layer = ropeLayerIndex;
             
-                CircleCollider2D collider = segments[i].AddComponent<CircleCollider2D>();
-                collider.radius = ropeThickness / 2f;
+                //CircleCollider2D collider = segments[i].AddComponent<CircleCollider2D>();
+                //collider.radius = ropeThickness / 2f;
             
                 Rigidbody2D rb = segments[i].AddComponent<Rigidbody2D>();
                 rb.mass = segmentMass;
