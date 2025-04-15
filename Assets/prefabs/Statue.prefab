@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3864507272472524893}
   - component: {fileID: 6973626220926726351}
   - component: {fileID: 2006065453823933095}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameJam_Statue1 1_0
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 9100416737811996322}
   m_Layer: 0
   m_Name: Statue
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

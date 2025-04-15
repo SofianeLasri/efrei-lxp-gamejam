@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 271334711418916354}
   - component: {fileID: 7530364313376710150}
   - component: {fileID: 1480829268769001810}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameJam_Dormer2_0
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 6399196525558973434}
   m_Layer: 0
   m_Name: Dormer2
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1945346245089786756}
   - component: {fileID: 3535343021836528944}
   - component: {fileID: 3438385406364138598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dormer1_0
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 2547339452093380109}
   m_Layer: 0
   m_Name: Dormer
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Player
@@ -7,7 +8,6 @@ namespace Player
         public float speed = 5f;
         public Rigidbody2D rbRight;
         public Rigidbody2D rbLeft;
-
         private PlayerInputHandler _scriptXY;
         void Start()
         {

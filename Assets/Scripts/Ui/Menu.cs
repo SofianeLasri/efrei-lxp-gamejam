@@ -23,7 +23,7 @@ namespace Ui
 
         private void OnPlayButtonClicked()
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene(1);
         }
 
         private void OnQuitButtonClicked()

@@ -33,7 +33,7 @@ namespace Player
             
                 for (int i = 0; i < segments.Length; i++)
                 {
-                    Debug.Log( "Segment " + i + " position: " + segments[i].transform.position);
+                    
                     lineRenderer.SetPosition(i + 1, segments[i].transform.position);
                 }
             
