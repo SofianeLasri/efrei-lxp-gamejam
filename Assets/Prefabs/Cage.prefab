@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 351026594652919056}
   - component: {fileID: 2885510560575972682}
   m_Layer: 0
-  m_Name: GameJam_Cage_0
+  m_Name: Cage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -10,6 +10,21 @@ public class Laser_manager : MonoBehaviour
 
     private bool isDropping = false;
     private bool hasTouchedGround = false;
+    
+    private void Start()
+    {
+        cage = GameObject.Find("Cage");
+        player = GameObject.Find("Player");
+        
+        if (cage == null)
+        {
+            Debug.LogError("Cage not found in the scene.");
+        }
+        if (player == null)
+        {
+            Debug.LogError("Player not found in the scene.");
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
