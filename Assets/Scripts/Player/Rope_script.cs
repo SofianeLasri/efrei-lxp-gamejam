@@ -33,6 +33,7 @@ namespace Player
             
                 for (int i = 0; i < segments.Length; i++)
                 {
+                    Debug.Log( "Segment " + i + " position: " + segments[i].transform.position);
                     lineRenderer.SetPosition(i + 1, segments[i].transform.position);
                 }
             
@@ -115,7 +116,14 @@ namespace Player
         void ConnectSegments(GameObject obj1, GameObject obj2, float distance)
         {
             DistanceJoint2D joint = obj1.AddComponent<DistanceJoint2D>();
-            joint.connectedBody = obj2.GetComponent<Rigidbody2D>();
+            var obj2Rb = obj2.GetComponent<Rigidbody2D>();
+            
+            if(obj2Rb == null)
+            {
+                obj2Rb = obj2.GetComponentInParent<Rigidbody2D>();
+            }
+            
+            joint.connectedBody = obj2Rb;
             joint.distance = distance * 0.95f;
             joint.enableCollision = false;
             joint.maxDistanceOnly = false;
