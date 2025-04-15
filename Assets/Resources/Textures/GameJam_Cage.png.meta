@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GameJam_Cage_0: 2052029726478763343
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

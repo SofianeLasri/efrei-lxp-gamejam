@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GameJam_Chandelier_0: 7755907609570204701
+      GameJam_Chandelier_1: 5919938150132385423
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

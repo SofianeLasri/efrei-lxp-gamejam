@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GameJam_Dormer2_0: -8595684417321362333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
