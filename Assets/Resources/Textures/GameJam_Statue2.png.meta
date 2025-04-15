@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f603b6fc2fef9ce4c816b6a1e54633db
+guid: e02012423a2c4394fa68e5d0755c1773
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7639580856104267374
-    second: GameJam_Statue1_0
+      213: 953908920131177099
+    second: GameJam_Statue2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GameJam_Statue1_0
+      name: GameJam_Statue2_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 9
-        width: 1964
-        height: 3817
+        x: 73
+        y: 84
+        width: 1568
+        height: 2405
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6e28f8ff4e350a60800000000000000
-      internalID: 7639580856104267374
+      spriteID: b8ace7cdb17fc3d00800000000000000
+      internalID: 953908920131177099
       vertices: []
       indices: 
       edges: []
