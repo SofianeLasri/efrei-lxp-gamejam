@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      box_laser_0: -1704039298122639979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
