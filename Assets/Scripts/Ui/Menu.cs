@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -9,6 +10,7 @@ namespace Ui
         private UIDocument _uiDocument;
         private Button _playButton;
         private Button _quitButton;
+        private bool _fixesHaveBeenApplied = false;
     
         void Start()
         {
@@ -19,6 +21,30 @@ namespace Ui
         
             _playButton.clicked += OnPlayButtonClicked;
             _quitButton.clicked += OnQuitButtonClicked;
+        }
+
+        private void OnGUI()
+        {
+            if (!_fixesHaveBeenApplied)
+            {
+                UssVisualFixes();
+            }
+        }
+
+        private void UssVisualFixes()
+        {
+            // Elements with .menu-btn .icon
+            var buttonsIcons = _uiDocument.rootVisualElement.Query<VisualElement>(null, "btn-icon");
+            
+            // Well set the height px value to the width px value
+            buttonsIcons.ForEach(buttonIcon =>
+            {
+                var buttonIconHeight = buttonIcon.resolvedStyle.height;
+                Debug.Log(buttonIconHeight);
+                buttonIcon.style.width = buttonIconHeight;
+            });
+            
+            _fixesHaveBeenApplied = true;
         }
 
         private void OnPlayButtonClicked()

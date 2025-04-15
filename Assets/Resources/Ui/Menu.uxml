@@ -3,14 +3,14 @@
     <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Textures/Ui/background&apos;); flex-direction: column; padding-top: 64px; padding-right: 64px; padding-bottom: 64px; padding-left: 64px;">
         <ui:VisualElement name="MenuWrapper" style="flex-grow: 1; width: 40%;">
             <ui:VisualElement name="Logo" style="flex-grow: 0; background-image: resource(&apos;Textures/Ui/Bras-Cage&apos;); width: 100%; height: 72px; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit; background-position-y: center 0; background-position-x: left 0; min-width: 255px;" />
-            <ui:VisualElement name="ActionsWrapper" style="flex-grow: 1; width: 80%; margin-top: 5%; padding-top: 0; padding-bottom: 0; max-width: none; min-width: 200px;">
+            <ui:VisualElement name="ActionsWrapper" style="flex-grow: 1; width: 80%; margin-top: 5%; padding-top: 0; padding-bottom: 0; max-width: 400px; min-width: 200px;">
                 <ui:Button name="Play" enable-rich-text="false" emoji-fallback-support="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" selectable="false" class="menu-btn" style="-unity-text-align: middle-right;">
-                    <ui:VisualElement style="flex-grow: 0; height: 20px; width: 20px; background-image: resource(&apos;Textures/Ui/gamepad&apos;); -unity-background-scale-mode: scale-to-fit;" />
-                    <ui:Label text="Jouer" style="-unity-text-align: middle-center; height: 20px; width: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 8px; font-size: 20%;" />
+                    <ui:VisualElement name="VisualElement" class="btn-icon" style="background-image: resource(&apos;Textures/Ui/gamepad&apos;); width: 20px;" />
+                    <ui:Label text="Jouer" />
                 </ui:Button>
                 <ui:Button name="Quit" enable-rich-text="false" emoji-fallback-support="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" selectable="false" class="menu-btn" style="margin-top: 8px;">
-                    <ui:VisualElement style="flex-grow: 0; height: 20px; width: 20px; background-image: resource(&apos;Textures/Ui/cross&apos;); -unity-background-scale-mode: scale-to-fit;" />
-                    <ui:Label text="Quitter" style="-unity-text-align: middle-center; height: 20px; width: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 8px;" />
+                    <ui:VisualElement class="btn-icon" style="background-image: resource(&apos;Textures/Ui/cross&apos;); width: 20px;" />
+                    <ui:Label text="Quitter" />
                 </ui:Button>
             </ui:VisualElement>
         </ui:VisualElement>
