@@ -50,7 +50,7 @@ public class Player_weigt_manager : MonoBehaviour
 
         if (!(grabbingRight && handsCollided1) && !(grabbingLeft && handsCollided2))
         {
-            rb.mass = 45f;
+            rb.mass = 60f;
         }
     }
 }

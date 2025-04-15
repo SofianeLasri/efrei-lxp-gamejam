@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1013467935445029418}
   - component: {fileID: 4555855862461815863}
   - component: {fileID: 5984612697768736643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameJam_StainedGlass3_0
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
