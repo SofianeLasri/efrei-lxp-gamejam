@@ -1,6 +1,6 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Resources/Ui/menu-styles.uss?fileID=7433441132597879392&amp;guid=dbb208e4cc1df1247affb5af4e8a6fe3&amp;type=3#menu-styles" />
-    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Textures/Ui/background&apos;); flex-direction: column; padding-top: 64px; padding-right: 64px; padding-bottom: 64px; padding-left: 64px;">
+    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Textures/Ui/background&apos;); flex-direction: row; padding-top: 64px; padding-right: 64px; padding-bottom: 64px; padding-left: 64px; justify-content: space-between;">
         <ui:VisualElement name="MenuWrapper" style="flex-grow: 1; width: 40%;">
             <ui:VisualElement name="Logo" style="flex-grow: 0; background-image: resource(&apos;Textures/Ui/Bras-Cage&apos;); width: 100%; height: 72px; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit; background-position-y: center 0; background-position-x: left 0; min-width: 255px;" />
             <ui:VisualElement name="ActionsWrapper" style="flex-grow: 1; width: 80%; margin-top: 5%; padding-top: 0; padding-bottom: 0; max-width: 400px; min-width: 200px;">
@@ -12,6 +12,14 @@
                     <ui:VisualElement class="btn-icon" style="background-image: resource(&apos;Textures/Ui/cross&apos;); width: 20px;" />
                     <ui:Label text="Quitter" />
                 </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(36, 21, 36); height: 373px; width: 10%; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px;">
+            <ui:Label text="Contrôles du jeu" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 32px;" />
+            <ui:VisualElement style="flex-grow: 1;">
+                <ui:Label text="ZQSD &amp; E - Joueur 1&#10;UP DOWN LEFT RIGHT &amp; R Shift - Joueur 2" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 18px;" />
+                <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Textures/Ui/Dualshock_4_Layout 1&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:Label text="Stick Gauche &amp; L2 - Joueur 1&#10;Stick Droit &amp; R2 - Joueur 2" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 18px;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
