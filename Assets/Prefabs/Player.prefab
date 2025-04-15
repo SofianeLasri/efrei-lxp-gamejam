@@ -398,6 +398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftMoveValue: {x: 0, y: 0}
   rightMoveValue: {x: 0, y: 0}
+  isGrabbingWithLeftHand: 0
+  isGrabbingWithRightHand: 0
 --- !u!114 &7692289799806998167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,7 +428,7 @@ GameObject:
   - component: {fileID: 4706322832628661724}
   - component: {fileID: 8621202386061789772}
   m_Layer: 0
-  m_Name: GameJam_Player_0
+  m_Name: Base
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
