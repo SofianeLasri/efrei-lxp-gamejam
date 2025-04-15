@@ -98,7 +98,7 @@ namespace Player
                 rb.mass = segmentMass;
                 rb.linearDamping = 0.5f;
                 rb.angularDamping = 0.5f;
-                rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+                //rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
             
                 if (i == 0)
                 {

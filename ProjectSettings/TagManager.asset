@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Laser
   - ground
+  - Obstacle
   layers:
   - Default
   - TransparentFX
