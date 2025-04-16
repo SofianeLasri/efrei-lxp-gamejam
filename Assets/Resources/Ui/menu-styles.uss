@@ -14,9 +14,10 @@
     background-color: rgb(42, 36, 45);
     color: rgb(255, 255, 255);
     -unity-font-definition: resource('Fonts/LilitaOne-Regular');
-    font-size: 20px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    padding-left: 5%;
     flex-direction: row;
     -unity-text-align: middle-center;
     align-items: center;
@@ -31,4 +32,19 @@
     border-right-color: rgb(255, 175, 62);
     border-top-color: rgb(255, 175, 62);
     border-bottom-color: rgb(255, 175, 62);
+}
+
+.menu-btn .btn-icon {
+    height: 100%;
+    width: 100%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.menu-btn Label {
+    margin-left: 5%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 150%;
+    height: 100%;
 }

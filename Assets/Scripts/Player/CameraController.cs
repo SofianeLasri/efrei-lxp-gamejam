@@ -14,6 +14,18 @@ namespace Player
         void Start()
         {
             initialZPosition = transform.position.z;
+            
+            var playerBase = GameObject.Find("Player/Base");
+            
+            if (playerBase != null)
+            {
+                target = playerBase.transform;
+            }
+            
+            if (target == null)
+            {
+                Debug.LogError("Target not found. Please assign a target in the inspector.");
+            }
         }
 
         // Update is called once per frame
