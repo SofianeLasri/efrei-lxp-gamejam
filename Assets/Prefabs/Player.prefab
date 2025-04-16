@@ -455,7 +455,8 @@ GameObject:
   - component: {fileID: 3874218461237529945}
   - component: {fileID: 8612757708919947391}
   - component: {fileID: 4706322832628661724}
-  - component: {fileID: 3794378008325568255}
+  - component: {fileID: 8059248727166482669}
+  - component: {fileID: 2571582600568008346}
   m_Layer: 0
   m_Name: Base
   m_TagString: Player
@@ -579,8 +580,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!68 &3794378008325568255
-EdgeCollider2D:
+--- !u!61 &8059248727166482669
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -613,34 +614,54 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00000023841858, y: -3.2726107}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.38, y: 19.93}
+    newSize: {x: 11.38, y: 19.93}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 8.761911, y: 13.384779}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -1.3970718, y: 4.7641053}
-  - {x: -1.587966, y: 3.8716002}
-  - {x: -4.673557, y: 2.2026415}
-  - {x: -4.5251985, y: 2.0883374}
-  - {x: -4.877232, y: -1.5731463}
-  - {x: -5.650094, y: -4.052847}
-  - {x: -5.928135, y: -7.9092875}
-  - {x: -6.101248, y: -10.053991}
-  - {x: 5.7123833, y: -10.0032425}
-  - {x: 5.9987307, y: -7.363758}
-  - {x: 4.975584, y: -3.0293446}
-  - {x: 4.209037, y: 0.9242776}
-  - {x: 4.155039, y: 2.9265716}
-  - {x: 1.6024302, y: 3.5835876}
-  - {x: 1.2268653, y: 4.704979}
-  - {x: 2.7208555, y: 6.873588}
-  - {x: 2.206789, y: 9.069494}
-  - {x: -0.31772494, y: 10.13829}
-  - {x: -2.9078906, y: 8.522158}
-  - {x: -2.7652483, y: 6.4290733}
-  - {x: -1.2205753, y: 4.292929}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
+--- !u!58 &2571582600568008346
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6725960485434904118}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0000053461076, y: 7.2651925}
+  m_Radius: 2.8307195
 --- !u!1 &6763055457044869025
 GameObject:
   m_ObjectHideFlags: 0
