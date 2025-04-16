@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class Diamond_script : MonoBehaviour
 {
-    public int level;
+    private int _level;
 
     private void OnCollisionEnter2D(Collision2D other)
     {
