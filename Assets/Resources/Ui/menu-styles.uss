@@ -25,7 +25,6 @@
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    height: 10%;
 }
 
 .menu-btn:hover {

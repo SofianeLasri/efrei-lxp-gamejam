@@ -40,7 +40,13 @@ namespace Ui
             buttonsIcons.ForEach(buttonIcon =>
             {
                 var buttonIconHeight = buttonIcon.resolvedStyle.height;
-                Debug.Log(buttonIconHeight);
+                
+                if (buttonIconHeight < 40.0f)
+                {
+                    buttonIconHeight = 40.0f;
+                    buttonIcon.style.height = buttonIconHeight;
+                }
+                
                 buttonIcon.style.width = buttonIconHeight;
             });
             

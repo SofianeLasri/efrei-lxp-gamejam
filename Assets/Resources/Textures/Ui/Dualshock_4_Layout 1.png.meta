@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dualshock_4_Layout 1_0: -6565078936007950631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
