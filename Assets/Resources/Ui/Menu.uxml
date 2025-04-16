@@ -17,7 +17,7 @@
         <ui:VisualElement style="flex-grow: 1; background-color: rgb(36, 21, 36); height: 373px; width: 10%; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px;">
             <ui:Label text="Contrôles du jeu" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 32px;" />
             <ui:VisualElement style="flex-grow: 1;">
-                <ui:Label text="ZQSD &amp; E - Joueur 1&#10;UP DOWN LEFT RIGHT &amp; R Shift - Joueur 2" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 18px;" />
+                <ui:Label text="ZQSD &amp; E - Joueur 1&#10;UP DOWN LEFT RIGHT &amp; R Shift - Joueur 2" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 18px; white-space: normal;" />
                 <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Textures/Ui/Dualshock_4_Layout 1&apos;); -unity-background-scale-mode: scale-to-fit;" />
                 <ui:Label text="Stick Gauche &amp; L2 - Joueur 1&#10;Stick Droit &amp; R2 - Joueur 2" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 18px;" />
             </ui:VisualElement>

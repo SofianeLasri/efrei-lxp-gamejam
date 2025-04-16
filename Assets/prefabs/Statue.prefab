@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3864507272472524893}
   - component: {fileID: 6973626220926726351}
-  - component: {fileID: 2006065453823933095}
+  - component: {fileID: 2479674174406974539}
   m_Layer: 6
   m_Name: GameJam_Statue1 1_0
   m_TagString: Obstacle
@@ -88,8 +88,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!68 &2006065453823933095
-EdgeCollider2D:
+--- !u!61 &2479674174406974539
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -123,31 +123,17 @@ EdgeCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.640001, y: 38.170002}
+    newSize: {x: 19.640001, y: 38.170002}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 19.640001, y: 38.170002}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: 9.74958, y: -19.222782}
-  - {x: 9.83284, y: -11.037688}
-  - {x: 5.8240027, y: -6.596304}
-  - {x: 5.991464, y: -0.7229316}
-  - {x: 8.073262, y: 2.7943957}
-  - {x: 6.1482935, y: 10.054759}
-  - {x: 10.423555, y: 15.751487}
-  - {x: 7.1791496, y: 18.926767}
-  - {x: -2.0426362, y: 17.241302}
-  - {x: -3.1628518, y: 14.869966}
-  - {x: 1.5271211, y: 10.17211}
-  - {x: -0.33455038, y: 7.024375}
-  - {x: -1.4484938, y: 3.1103773}
-  - {x: -7.717773, y: -2.9559326}
-  - {x: -9.157067, y: -7.857758}
-  - {x: -7.3443127, y: -11.009709}
-  - {x: -9.873483, y: -11.057302}
-  - {x: -9.633169, y: -19.042255}
-  - {x: 9.770458, y: -18.975061}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!1 &4356345926540130687
 GameObject:
   m_ObjectHideFlags: 0
