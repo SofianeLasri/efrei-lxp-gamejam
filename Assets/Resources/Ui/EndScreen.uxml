@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/Ui/menu-styles.uss?fileID=7433441132597879392&amp;guid=dbb208e4cc1df1247affb5af4e8a6fe3&amp;type=3#menu-styles" />
+    <ui:VisualElement style="flex-grow: 1; align-items: center; align-self: center; align-content: auto; justify-content: center; width: 100%; height: 100%; background-color: rgb(52, 41, 52);">
+        <ui:Label text="Ah bah bravo" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 30%; margin-bottom: 0;" />
+        <ui:Label text="Tu as terminé le jeu" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 25%; margin-top: 0;" />
+        <ui:Label text="Veux-tu rejouer ?" style="color: rgb(255, 255, 255); -unity-font-definition: resource(&apos;Fonts/LilitaOne-Regular&apos;); font-size: 25%; margin-top: 16px;" />
+        <ui:Button name="Play" enable-rich-text="false" emoji-fallback-support="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" selectable="false" class="menu-btn" style="-unity-text-align: middle-right; padding-top: 0.5%; padding-right: 1%; padding-bottom: 0.5%; padding-left: 1%;">
+            <ui:VisualElement name="VisualElement" class="btn-icon" style="background-image: resource(&apos;Textures/Ui/gamepad&apos;); width: 20px;" />
+            <ui:Label text="Rejouer" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>
