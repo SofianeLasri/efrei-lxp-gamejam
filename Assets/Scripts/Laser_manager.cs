@@ -14,7 +14,7 @@ public class Laser_manager : MonoBehaviour
     private void Start()
     {
         cage = GameObject.Find("Cage");
-        player = GameObject.Find("Player");
+        player = GameObject.Find("Player/Base");
         
         if (cage == null)
         {
@@ -50,10 +50,9 @@ public class Laser_manager : MonoBehaviour
 
     private void Update()
     {
-        // Suivre le joueur en X
-        Vector3 cagePosition = cage.transform.position;
-        cagePosition.x = player.transform.position.x;
-        cage.transform.position = cagePosition;
+            Vector3 cagePosition = cage.transform.position;
+            cagePosition.x = player.transform.position.x; // Met à jour seulement la position X
+            cage.transform.position = cagePosition;
 
         // Descente vers le joueur
         if (isDropping)

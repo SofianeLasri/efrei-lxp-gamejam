@@ -11,7 +11,6 @@ public class Diamond_script : MonoBehaviour
 
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log(SceneManager.GetActiveScene().buildIndex +1);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);     
         }
     }

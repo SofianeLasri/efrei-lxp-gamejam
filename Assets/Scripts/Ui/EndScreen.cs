@@ -20,7 +20,7 @@ namespace Ui
         
         private void OnPlayButtonClicked()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
     }
 }
